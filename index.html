@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://use.typekit.net/xeu3mcm.css">
+     <script src="scripts.js"></script>
+     <script src="https://kit.fontawesome.com/f6eff13d5e.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <style>
+.columns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.but:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.1s ease-in;
+}
+.hometitle {
+    text-align: center;
+    padding-top: 50px;
+}
+.homesubtitles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    font-size: 18pt;
+}
+#homeL {
+width: 480px;
+clip-path: ellipse(45% 40%);
+}
+#homeM {
+width: 480px;
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#homeR {
+width: 490px;
+clip-path: circle(39%);
+}
+    </style>
+</head>
+<body>
+    <h1 id="header" class="hometitle">Anthony's Portfolio</h1>
+<div class="columns">
+    <a href="about.html"><img src="images/homeL.jpg" id="homeL" class="but"></a>
+    <a href="artwork.html"><img src="images/homeMid.jpg" id="homeM" class="but"></a>
+    <a href="contact.html"><img src="images/homeR.jpg" id="homeR" class="but"></a>
+</div>    
+<div class="homesubtitles">
+    <h2 class="subheader">About</h2>
+    <h2 class="subheader">Artwork</h2>
+    <h2 class="subheader">Contact</h2>
+</div>
+</body>
+</html>

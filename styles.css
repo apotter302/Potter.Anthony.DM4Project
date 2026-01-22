@@ -1,0 +1,262 @@
+
+body {
+    background-color: #F2FBFF;
+}
+
+#header {
+  font-family: cofo-raffine, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+    font-size: 60px;  
+    padding-left: 15px;
+}
+
+#subheader {
+  font-family: warbler-display, sans-serif;
+font-weight: 700;
+font-style: normal;
+padding: 20px;
+}
+
+#bodytext {
+  font-family: "warbler-banner", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "warbler-banner", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  text-align: justify;
+  padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #190F38;
+    font-family: warbler-text, sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    font-style: normal;;
+    position: sticky;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    display: flex;
+  }
+  
+  ul li a {
+    display: block;
+    color: #F2FBFF;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #322475;
+  }
+
+  ul li a:active {
+    background-color: #0067C4;
+  }
+
+  /* end of nav bar and formatting css */
+  .bigartwork {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gallery:hover {
+    transform: scale(1.1);
+  }
+
+  .gallery {
+    position: relative;
+    width: calc(15%-20px);
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+  }
+
+#aright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15px;
+  margin-right: 20px;
+}
+
+#aleft {
+  margin-right: 170px;
+  margin-left: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* modal background */
+  .modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+/* modal content */
+.modal-content {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: zoomIn 0.5s;
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+}
+
+@keyframes zoomIn {
+  from {transform: scale(0.6);}
+  to {transform: scale(1);}
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+}
+
+/* close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+  @media screen and (max-width: 768px) {
+  .gallery {
+    width: calc(50%-20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery {
+    width: calc(100%-20px);
+  }
+}
+/* end of modal content */
+
+  .artworkcolumn {
+    flex: 1;
+padding: 15px;
+  }
+
+  #logo2026 {
+    padding: 30px;
+    background-color: white;
+  }
+
+  #seniorsignature {
+    padding: 20px;
+  } 
+ 
+#hearto {
+padding: 20px;
+ }
+
+#middle {
+  margin: 20px;
+}
+
+.bodycolumn {
+  margin-top: 40px;
+  font-family: "warbler-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#right {
+  text-align: right;
+  text-align: justify;
+}
+
+  #mica3 {
+    padding: 20px;
+  }
+
+  #mica4 {
+    padding: 20px;
+  }
+
+  #mica5 {
+    padding: 20px;
+  }
+
+  #mica6 {
+    padding: 20px;
+  }
+
+  #mica7 {
+    padding: 20px;
+  }
+
+  #mica8 {
+    padding: 20px;
+  }
+
+  #mica9 {
+    padding: 20px;
+  }
+
+  #mica10 {
+    padding: 20px;
+  }
+
+  #icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  a:link {
+    color: royalblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: indigo;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: orchid;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: darkorchid;
+    background-color: transparent;
+    text-decoration: underline;
+  }
